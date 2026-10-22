@@ -1,0 +1,13 @@
+config,config_label,capability,capability_label,edges,unauthorized_edges,reachable_pairs_topology,entry_critical_pairs,entry_critical_pairs_max,simple_attack_paths,mean_min_hops,strong_identity_flows,required_flows,data_type
+B0,Baseline (perimeter),C0,C0: foothold only,73,56,92,4,12,12,1.00,0,17,illustrative-model
+B0,Baseline (perimeter),C1,C1: + stolen passwords,73,56,92,12,12,67840,1.67,0,17,illustrative-model
+B0,Baseline (perimeter),C2,C2: + MFA bypass,73,56,92,12,12,67840,1.67,0,17,illustrative-model
+B0,Baseline (perimeter),C3,C3: + JIT approval (insider),73,56,92,12,12,67840,1.67,0,17,illustrative-model
+B1,Zone-segmented,C0,C0: foothold only,26,9,78,4,12,4,2.00,0,17,illustrative-model
+B1,Zone-segmented,C1,C1: + stolen passwords,26,9,78,12,12,104,2.67,0,17,illustrative-model
+B1,Zone-segmented,C2,C2: + MFA bypass,26,9,78,12,12,104,2.67,0,17,illustrative-model
+B1,Zone-segmented,C3,C3: + JIT approval (insider),26,9,78,12,12,104,2.67,0,17,illustrative-model
+ZT,Proposed Zero Trust,C0,C0: foothold only,17,0,51,4,12,4,2.00,13,17,illustrative-model
+ZT,Proposed Zero Trust,C1,C1: + stolen passwords,17,0,51,4,12,4,2.00,13,17,illustrative-model
+ZT,Proposed Zero Trust,C2,C2: + MFA bypass,17,0,51,4,12,4,2.00,13,17,illustrative-model
+ZT,Proposed Zero Trust,C3,C3: + JIT approval (insider),17,0,51,12,12,20,2.67,13,17,illustrative-model
